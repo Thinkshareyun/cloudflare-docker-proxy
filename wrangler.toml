@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
  routes = [
-   { pattern = "docker.thinkshareyun.top", custom_domain = true },
-   { pattern = "quay.thinkshareyun.top", custom_domain = true },
-   { pattern = "gcr.thinkshareyun.top", custom_domain = true },
-   { pattern = "k8s-gcr.thinkshareyun.top", custom_domain = true },
-   { pattern = "k8s.thinkshareyun.top", custom_domain = true },
-   { pattern = "ghcr.thinkshareyun.top", custom_domain = true },
-   { pattern = "cloudsmith.thinkshareyun.top", custom_domain = true },
+   { pattern = "docker.yking.de5.net", custom_domain = true },
+   { pattern = "quay.yking.de5.net", custom_domain = true },
+   { pattern = "gcr.yking.de5.net", custom_domain = true },
+   { pattern = "k8s-gcr.yking.de5.net", custom_domain = true },
+   { pattern = "k8s.yking.de5.net", custom_domain = true },
+   { pattern = "ghcr.yking.de5.net", custom_domain = true },
+   { pattern = "cloudsmith.yking.de5.net", custom_domain = true },
  ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
- route = { pattern = "docker-staging.thinkshareyun.top", custom_domain = true }
+ route = { pattern = "docker-staging.yking.de5.net", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
