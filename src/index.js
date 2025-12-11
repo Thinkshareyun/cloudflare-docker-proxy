@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.thinkshareyun.top": dockerHub,
-  "quay.thinkshareyun.top": "https://quay.io",
-  "gcr.thinkshareyun.top": "https://gcr.io",
-  "k8s-gcr.thinkshareyun.top": "https://k8s.gcr.io",
-  "k8s.thinkshareyun.top": "https://registry.k8s.io",
-  "ghcr.thinkshareyun.top": "https://ghcr.io",
-  "cloudsmith.thinkshareyun.top": "https://docker.cloudsmith.io",
-  "ecr.thinkshareyun.top": "https://public.ecr.aws",
+  "docker.yking.de5.net": dockerHub,
+  "quay.yking.de5.net": "https://quay.io",
+  "gcr.yking.de5.net": "https://gcr.io",
+  "k8s-gcr.yking.de5.net": "https://k8s.gcr.io",
+  "k8s.yking.de5.net": "https://registry.k8s.io",
+  "ghcr.yking.de5.net": "https://ghcr.io",
+  "cloudsmith.yking.de5.net": "https://docker.cloudsmith.io",
+  "ecr.yking.de5.net": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.thinkshareyun.top": dockerHub,
+  "docker-staging.yking.de5.net": dockerHub,
 };
 
 function routeByHosts(host) {
